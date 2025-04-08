@@ -68,9 +68,6 @@ packages:
 services:
   - 'gdm'
 
-user-services:
-  - 'blend-files'
-
 commands: 
   - 'rm -f /usr/share/applications/Waydroid.desktop'
   - 'echo "blacklist rtw88_8821ce" | sudo tee - a /etc/modprobe.d/blacklist.conf'
