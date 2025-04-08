@@ -179,6 +179,7 @@ packages:
   - 'waydroid-image'
 
 aur-packages:
+  - 'cromite-bin'
   - 'rtl8821ce-dkms-git'
 
 services:
