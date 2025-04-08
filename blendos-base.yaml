@@ -131,6 +131,3 @@ aur-packages:
 package-repos:
   - name: 'cachyos'
     repo-url: 'https://mirror.cachyos.org/repo/x86_64/$repo/'
-
-commands: 
-  - 'echo "blacklist rtw88_8821ce" | sudo tee - a /etc/modprobe.d/blacklist.conf'
