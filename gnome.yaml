@@ -67,19 +67,9 @@ packages:
 
 services:
   - 'gdm'
-  - 'cups'
-  - 'bluetooth'
-  - 'NetworkManager'
 
 user-services:
   - 'blend-files'
-
-aur-packages:
-  - 'rtl8821ce-dkms-git'
-
-package-repos:
-  - name: 'cachyos'
-    repo-url: 'https://mirror.cachyos.org/repo/x86_64/$repo/'
 
 commands: 
   - 'rm -f /usr/share/applications/Waydroid.desktop'
