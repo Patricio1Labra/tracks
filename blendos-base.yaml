@@ -127,7 +127,3 @@ user-services:
 
 aur-packages:
   - 'rtl8821ce-dkms-git'
-
-package-repos:
-  - name: 'cachyos'
-    repo-url: 'https://mirror.cachyos.org/repo/x86_64/$repo/'
