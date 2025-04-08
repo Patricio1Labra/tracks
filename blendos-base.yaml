@@ -63,8 +63,8 @@ packages:
   - 'less'
   - 'libfido2'
   - 'libusb-compat'
-  - 'linux-zen'
-  - 'linux-zen-headers'
+  - 'linux-cachyos-deckify'
+  - 'linux-cachyos-deckify-headers'
   - 'linux-atm'
   - 'linux-firmware'
   - 'linux-firmware-marvell'
@@ -125,3 +125,13 @@ services:
 
 user-services:
   - 'blend-files'
+
+aur-packages:
+  - 'rtl8821ce-dkms-git'
+
+package-repos:
+  - name: 'cachyos'
+    repo-url: 'https://mirror.cachyos.org/repo/x86_64/$repo/'
+
+commands: 
+  - 'echo "blacklist rtw88_8821ce" | sudo tee - a /etc/modprobe.d/blacklist.conf'
