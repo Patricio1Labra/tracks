@@ -181,6 +181,7 @@ packages:
 aur-packages:
   - 'cromite-bin'
   - 'rtl8821ce-dkms-git'
+  - 'gnome-shell-extension-dash-to-dock'
 
 services:
   - 'cups'
